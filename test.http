@@ -1,0 +1,11 @@
+### 재시도 안함
+GET http://localhost:8080/retry/annotated/false
+
+### 재시도 함
+GET http://localhost:8080/retry/annotated/true
+
+### [커스텀] 재시도 안함
+GET http://localhost:8080/retry/custom/false
+
+### [커스텀] 재시도 함
+GET http://localhost:8080/retry/custom/true
